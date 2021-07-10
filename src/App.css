@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.login>button{
+  width: 50px;
+  border: 1px solid #000;
+  margin-right: 10px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button> img{
+  width: 90%;
+  padding:5px;
+}
+label{
+  width: 100px;
+  display:inline-block
+}
+input{
+  margin: 5px;
+  padding:5px 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
